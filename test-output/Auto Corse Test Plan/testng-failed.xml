@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Auto Corse Test Plan]">
+  <test name="Check a count of search results(failed)">
+    <classes>
+      <class name="demo.test.DemoTest">
+        <methods>
+          <include name="after"/>
+          <include name="xTest"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- demo.test.DemoTest -->
+    </classes>
+  </test> <!-- Check a count of search results(failed) -->
+</suite> <!-- Failed suite [Auto Corse Test Plan] -->

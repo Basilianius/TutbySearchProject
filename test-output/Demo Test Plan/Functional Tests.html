@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>TestNG:  Functional Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 21 03:20:12 MAGST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13226 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='search.project.test.CountSearchResultsTest.readParams()'><b>readParams</b><br>Test class: search.project.test.CountSearchResultsTest<br>Parameters: http://tut.by, Работа, специалист по тестированию, 1, 1, 7<br/>
+<a href="#Output-1218355150" onClick='toggleBox("Output-1218355150", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1218355150" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1218355150">
+----------------------------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'search.project.test.CountSearchResultsTest' =====================<br><br/>
+----------------------------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+OPEN MAINPAGE<br><br/>
+Form 'MainPage' appears in 2085msec<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+OPEN WORKSEARCHPAGE<br><br/>
+Link 'Работа' :: Clicking<br><br/>
+Form 'WorkSearchPage' appears in 2592msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+SEARCH BY LINE<br><br/>
+Text Field 'InputSearch' :: Typing 'специалист по тестированию'<br><br/>
+Button 'Search' :: Clicking<br><br/>
+Form 'WorkSearchResultPage' appears in 337msec<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+FIND RESULTS<br><br/>
+Finding search results...<br><br/>
+COUNT OF MATCH SEARCH RESULTS<br><br/>
+Check TRUE; Received 'Специалист по тестированию / Junior Tester';
+	 Expected 'специалист по тестированию'<br><br/>
+Check TRUE; Received 'Специалист по тестированию';
+	 Expected 'специалист по тестированию'<br><br/>
+<div class="skipped">Check FALSE; Received 'Специалист по автоматизированному тестированию (Java)';
+	 Expected 'специалист по тестированию'</div><br><br/>
+Check TRUE; Received 'Специалист по тестированию (мобильные приложения)';
+	 Expected 'специалист по тестированию'<br><br/>
+Check TRUE; Received 'Специалист по тестированию мобильных приложений и мобильной версии сайта';
+	 Expected 'специалист по тестированию'<br><br/>
+<div class="skipped">Check FALSE; Received 'Специалист по автоматизации тестирования (Java, Selenium)';
+	 Expected 'специалист по тестированию'</div><br><br/>
+Check TRUE; Received 'Game Tester\ Начинающий специалист по тестированию игрового клиента';
+	 Expected 'специалист по тестированию'<br><br/>
+<div class="skipped">Check FALSE; Received 'Junior QA Maps Specialist (Game)';
+	 Expected 'специалист по тестированию'</div><br><br/>
+<div class="skipped">Check FALSE; Received 'Junior QA Sound Specialist';
+	 Expected 'специалист по тестированию'</div><br><br/>
+<div class="skipped">Check FALSE; Received 'Junior QA Tanks Model Specialist';
+	 Expected 'специалист по тестированию'</div><br><br/>
+<div class="skipped">Check FALSE; Received 'Middle QA Specialist (Game)';
+	 Expected 'специалист по тестированию'</div><br><br/>
+<div class="skipped">Check FALSE; Received 'Инженер по нагрузочному тестированию';
+	 Expected 'специалист по тестированию'</div><br><br/>
+<div class="skipped">Check FALSE; Received 'Software Testing Engineer';
+	 Expected 'специалист по тестированию'</div><br><br/>
+<div class="skipped">Check FALSE; Received 'Senior QA Automation (Web)';
+	 Expected 'специалист по тестированию'</div><br><br/>
+<div class="skipped">Check FALSE; Received 'Senior Java-разработчик на проект "Кредитная фабрика" РФ';
+	 Expected 'специалист по тестированию'</div><br><br/>
+<div class="skipped">Check FALSE; Received 'Java web developer';
+	 Expected 'специалист по тестированию'</div><br><br/>
+<div class="skipped">Check FALSE; Received 'Тестировщик ПО (ручное тестирование)';
+	 Expected 'специалист по тестированию'</div><br><br/>
+Check TRUE; Received 'Ведущий специалист по тестированию (Senior QA engineer)';
+	 Expected 'специалист по тестированию'<br><br/>
+<div class="skipped">Check FALSE; Received 'Ведущий специалист.Процессингового центра (тестировщик)';
+	 Expected 'специалист по тестированию'</div><br><br/>
+Check TRUE; Received 'QA engineer (специалист по тестированию)';
+	 Expected 'специалист по тестированию'<br><br/>
+Total check: 20 from all 20<br><br/>
+CHECK COUNT OF MATCH<br><br/>
+Count of match 7 = expected 7<br><br/>
+<br><br/>
+***************************************************************************<br><br/>
+***** Test case: 'search.project.test.CountSearchResultsTest' Passed! *****<br><br/>
+***************************************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>search.project.test.CountSearchResultsTest@29b422df</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'search.project.test.CountSearchResultsTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[OPEN MAINPAGE<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'MainPage' appears in 2085msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[OPEN WORKSEARCHPAGE<br>]]>
+    </line>
+    <line>
+      <![CDATA[Link 'Работа' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'WorkSearchPage' appears in 2592msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[SEARCH BY LINE<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'InputSearch' :: Typing 'специалист по тестированию'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Search' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'WorkSearchResultPage' appears in 337msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[FIND RESULTS<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finding search results...<br>]]>
+    </line>
+    <line>
+      <![CDATA[COUNT OF MATCH SEARCH RESULTS<br>]]>
+    </line>
+    <line>
+      <![CDATA[Check TRUE; Received 'Специалист по тестированию / Junior Tester';
+	 Expected 'специалист по тестированию'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Check TRUE; Received 'Специалист по тестированию';
+	 Expected 'специалист по тестированию'<br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Специалист по автоматизированному тестированию (Java)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[Check TRUE; Received 'Специалист по тестированию (мобильные приложения)';
+	 Expected 'специалист по тестированию'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Check TRUE; Received 'Специалист по тестированию мобильных приложений и мобильной версии сайта';
+	 Expected 'специалист по тестированию'<br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Специалист по автоматизации тестирования (Java, Selenium)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[Check TRUE; Received 'Game Tester\ Начинающий специалист по тестированию игрового клиента';
+	 Expected 'специалист по тестированию'<br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Junior QA Maps Specialist (Game)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Junior QA Sound Specialist';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Junior QA Tanks Model Specialist';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Middle QA Specialist (Game)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Инженер по нагрузочному тестированию';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Software Testing Engineer';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Senior QA Automation (Web)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Senior Java-разработчик на проект "Кредитная фабрика" РФ';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Java web developer';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Тестировщик ПО (ручное тестирование)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[Check TRUE; Received 'Ведущий специалист по тестированию (Senior QA engineer)';
+	 Expected 'специалист по тестированию'<br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="skipped">Check FALSE; Received 'Ведущий специалист.Процессингового центра (тестировщик)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+    </line>
+    <line>
+      <![CDATA[Check TRUE; Received 'QA engineer (специалист по тестированию)';
+	 Expected 'специалист по тестированию'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Total check: 20 from all 20<br>]]>
+    </line>
+    <line>
+      <![CDATA[CHECK COUNT OF MATCH<br>]]>
+    </line>
+    <line>
+      <![CDATA[Count of match 7 = expected 7<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[***************************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'search.project.test.CountSearchResultsTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[***************************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Demo Test Plan" duration-ms="13226" started-at="2014-09-20T15:20:12Z" finished-at="2014-09-20T15:20:26Z">
+    <groups>
+    </groups>
+    <test name="Functional Tests" duration-ms="13226" started-at="2014-09-20T15:20:12Z" finished-at="2014-09-20T15:20:26Z">
+      <class name="search.project.test.CountSearchResultsTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:search.project.test.CountSearchResultsTest@29b422df]" name="before" is-config="true" duration-ms="118" started-at="2014-09-21T03:20:12Z" finished-at="2014-09-21T03:20:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@221c6a1f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.project.test.CountSearchResultsTest@29b422df]" name="readParams" duration-ms="12098" started-at="2014-09-21T03:20:12Z" finished-at="2014-09-21T03:20:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://tut.by]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Работа]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[специалист по тестированию]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[----------------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'search.project.test.CountSearchResultsTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[OPEN MAINPAGE<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'MainPage' appears in 2085msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[OPEN WORKSEARCHPAGE<br>]]>
+            </line>
+            <line>
+              <![CDATA[Link 'Работа' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'WorkSearchPage' appears in 2592msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[SEARCH BY LINE<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'InputSearch' :: Typing 'специалист по тестированию'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Search' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'WorkSearchResultPage' appears in 337msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[FIND RESULTS<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finding search results...<br>]]>
+            </line>
+            <line>
+              <![CDATA[COUNT OF MATCH SEARCH RESULTS<br>]]>
+            </line>
+            <line>
+              <![CDATA[Check TRUE; Received 'Специалист по тестированию / Junior Tester';
+	 Expected 'специалист по тестированию'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Check TRUE; Received 'Специалист по тестированию';
+	 Expected 'специалист по тестированию'<br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Специалист по автоматизированному тестированию (Java)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[Check TRUE; Received 'Специалист по тестированию (мобильные приложения)';
+	 Expected 'специалист по тестированию'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Check TRUE; Received 'Специалист по тестированию мобильных приложений и мобильной версии сайта';
+	 Expected 'специалист по тестированию'<br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Специалист по автоматизации тестирования (Java, Selenium)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[Check TRUE; Received 'Game Tester\ Начинающий специалист по тестированию игрового клиента';
+	 Expected 'специалист по тестированию'<br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Junior QA Maps Specialist (Game)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Junior QA Sound Specialist';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Junior QA Tanks Model Specialist';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Middle QA Specialist (Game)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Инженер по нагрузочному тестированию';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Software Testing Engineer';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Senior QA Automation (Web)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Senior Java-разработчик на проект "Кредитная фабрика" РФ';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Java web developer';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Тестировщик ПО (ручное тестирование)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[Check TRUE; Received 'Ведущий специалист по тестированию (Senior QA engineer)';
+	 Expected 'специалист по тестированию'<br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped">Check FALSE; Received 'Ведущий специалист.Процессингового центра (тестировщик)';
+	 Expected 'специалист по тестированию'</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[Check TRUE; Received 'QA engineer (специалист по тестированию)';
+	 Expected 'специалист по тестированию'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Total check: 20 from all 20<br>]]>
+            </line>
+            <line>
+              <![CDATA[CHECK COUNT OF MATCH<br>]]>
+            </line>
+            <line>
+              <![CDATA[Count of match 7 = expected 7<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[***************************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'search.project.test.CountSearchResultsTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[***************************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readParams -->
+        <test-method status="PASS" signature="after()[pri:0, instance:search.project.test.CountSearchResultsTest@29b422df]" name="after" is-config="true" duration-ms="988" started-at="2014-09-21T03:20:25Z" finished-at="2014-09-21T03:20:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- search.project.test.CountSearchResultsTest -->
+    </test> <!-- Functional Tests -->
+  </suite> <!-- Demo Test Plan -->
+</testng-results>

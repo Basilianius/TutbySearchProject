@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Test Plan]">
+  <parameter name="baseUrl" value="http://tut.by"/>
+  <parameter name="searchParameter" value="0"/>
+  <parameter name="expextedCount" value="7"/>
+  <parameter name="numPage" value="1"/>
+  <parameter name="elementTopMenu" value="Работа"/>
+  <parameter name="searchLine" value="специалист по тестированию"/>
+  <test name="Functional Tests(failed)">
+    <parameter name="searchParameter" value="0"/>
+    <parameter name="baseUrl" value="http://tut.by"/>
+    <parameter name="expextedCount" value="7"/>
+    <parameter name="numPage" value="1"/>
+    <parameter name="elementTopMenu" value="Работа"/>
+    <parameter name="searchLine" value="специалист по тестированию"/>
+    <classes>
+      <class name="search.project.test.CountSearchResultsTest">
+        <methods>
+          <include name="after"/>
+          <include name="readParams" invocation-numbers="0"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- search.project.test.CountSearchResultsTest -->
+    </classes>
+  </test> <!-- Functional Tests(failed) -->
+</suite> <!-- Failed suite [Demo Test Plan] -->
