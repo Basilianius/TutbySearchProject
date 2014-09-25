@@ -6,7 +6,7 @@
 		<parameter name="searchLine" value="специалист по тестированию" />		
 		<parameter name="searchParameter" value="1" />						<!-- 0..1; 0 - equal search line; 1 - contain search line; -->
 		<parameter name="numPage" value="1" /> 								<!-- 0..*; 0 - all; * - num Page; -->
-		<parameter name="expextedCount" value="7" />						<!--  expected count of match --> 						
+		<parameter name="expextedCount" value="6" />						<!--  expected count of match --> 						
 		<classes>
  			<class name="search.project.test.CountSearchResultsTest" />
         </classes>
